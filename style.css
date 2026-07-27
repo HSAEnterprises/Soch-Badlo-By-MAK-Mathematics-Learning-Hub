@@ -1,0 +1,143 @@
+/* ===========================================
+   GOOGLE FONT
+=========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===========================================
+   RESET
+=========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0b0b0b;
+    color:#ffffff;
+    overflow-x:hidden;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+ul{
+    list-style:none;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+button{
+    cursor:pointer;
+    font-family:inherit;
+}
+
+section{
+    padding:90px 8%;
+}
+/* ===========================================
+   NAVBAR
+=========================================== */
+
+.header{
+
+    position:sticky;
+    top:0;
+    z-index:999;
+
+    background:#111111;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.navbar{
+
+    width:90%;
+    margin:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    height:80px;
+
+}
+
+.logo{
+
+    font-size:22px;
+
+    font-weight:700;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    gap:28px;
+
+}
+
+.nav-links a{
+
+    color:#ffffff;
+
+    transition:.3s;
+
+    font-size:15px;
+
+}
+
+.nav-links a:hover{
+
+    color:#D4AF37;
+
+}
+
+.login-btn{
+
+    background:#D4AF37;
+
+    color:#111;
+
+    padding:12px 24px;
+
+    border-radius:8px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.login-btn:hover{
+
+    transform:translateY(-3px);
+
+}
+
+.menu-toggle{
+
+    display:none;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+}
